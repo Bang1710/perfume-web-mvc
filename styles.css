@@ -26,7 +26,7 @@ body {
 }
 
 .content .image {
-    line-height: 80px;
+    line-height: 90px;
 }
 
 ul {
@@ -119,7 +119,7 @@ img.img-cart:hover {
 .slider-container img {
     width: 100%;
     /*margin: 0 auto;*/
-    height: 85vh;
+    height: 80vh;
     /*object-fit: cover;*/
 }
 
@@ -163,12 +163,18 @@ img.img-cart:hover {
 }
 
 .brand {
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-bottom: 50px;
 }
 
 img.dior {
     height: 100px;
     width: 200px;
+}
+
+.col.image-brand.dior {
+    margin-top: 10px;
 }
 
 .col.image-brand.calvin {
@@ -187,7 +193,7 @@ img.versace {
 }
 
 .col.image-brand.ysl {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 img.ysl {
@@ -205,7 +211,8 @@ img.lauder {
 }
 
 .banner {
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 img.img-cart-list {
@@ -226,10 +233,138 @@ img.img-cart-list {
 }
 
 .card-product {
-    margin: 20px 0 100px;
+    margin: 50px 0px 50px;
 }
 
 .perfume-category {
-    box-shadow: 0px 15px 8px 1px rgba(17,17,26,0.18);
+    box-shadow: 1px 10px 7px -1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 1px 10px 7px -1px rgba(0,0,0,0.28);
+    -moz-box-shadow: 1px 10px 7px -1px rgba(0,0,0,0.28);
     margin: 0px 5px;
+}
+
+.intro-product-trending {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-content-des {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a.btn.btn-outline-dark.btn-view-all {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-view-all {
+    border-radius: 40px;
+    padding: 5px 25px;
+}
+
+.card {
+    height: 450px;
+}
+
+img.card-img-top {
+    height: 250px;
+}
+
+h1.card-title-brand {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+h3.card-title-productName {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+span.card-product-price {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    display: block;
+    margin-bottom: 1px;
+}
+
+h4.card-product-gender {
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+a.btn.btn-outline-success.card-view-detail {
+    font-size: 14px;
+    padding: 5px 15px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.intro-product-recommend {
+    text-align: center;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    /* height: 500px; */
+    width: 100%;
+    padding: 50px 0px 20px;
+    color: black;
+}
+
+h1.footer-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.footer-des {
+    font-size: 15px;
+    margin: 16px 0px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-des:hover {
+    color: forestgreen;
+    cursor: pointer;
+}
+
+.contact-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-logo{
+    width: 50%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.source {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
 }
