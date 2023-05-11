@@ -244,16 +244,21 @@ img.img-cart-list {
 }
 
 .intro-product-trending {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+   text-align: center;
 }
 
 .intro-content-des {
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.intro-view-all {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 35px 0px;
 }
 
 a.btn.btn-outline-dark.btn-view-all {
